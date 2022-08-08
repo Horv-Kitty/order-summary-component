@@ -26,35 +26,37 @@ div.container {
     font-family: 'Red Hat Display', sans-serif;
     background-color: white;
     border-radius: 15px;
-    max-width: 380px;
+    max-width: 430px;
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
 
 .inside-elements {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .music-img {
-    max-width: 380px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
 h1 {
     text-align: center;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 24px;
     color: var(--very-pale-blue);
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 20px 0px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     font-weight: 500;
     color: var(--desaturated-blue);
-    margin: 15px 20px;
+    margin-bottom: 20px;
     line-height: 1.5;
 }
 
@@ -75,26 +77,26 @@ div.annual-plan {
 
 .annual-plan-text {
     align-self: center;
-    padding-right: 60px;
+    padding-right: 70px;
 }
 
 #annual-plan-text {
     color: var(--very-pale-blue);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 900;
     line-height: 1.5;
 }
 
 #annual-plan-price {
     color: var(--desaturated-blue);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .change-link {
     align-self: center;
     color: var(--primary-bright-blue);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
 }
 
@@ -116,13 +118,13 @@ button {
     border-radius: 10px;
     box-shadow: 1px 15px 10px #DCD8FA;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    padding: 15px;
     display: block;
     margin: 0 auto;
     min-width: 100%;
+    padding: 17px 0px;
 }
 
 button:hover {
@@ -140,7 +142,7 @@ a.cancel-link {
     margin-top: 5px;
     text-decoration: none;
     color: var(--desaturated-blue);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
 }
 
