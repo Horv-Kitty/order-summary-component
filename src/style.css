@@ -169,3 +169,156 @@ footer a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+@media (max-width: 400px) {
+    div.container {
+        max-width: 250px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .inside-elements {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .annual-plan-text {
+        padding-right: 15px;
+    }
+
+    #annual-plan-text {
+        font-size: 12px;
+    }
+
+    #annual-plan-price {
+        font-size: 12px;
+    }
+
+    .music-icon {
+        margin: 0px;
+        width: 10px 10px;
+    }
+
+    .change-link {
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+
+    a.cancel-link {
+        font-size: 10px;
+        width: 500;
+    }
+}
+
+@media (min-width: 400px) {
+    div.container {
+        max-width: 330px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .inside-elements {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .annual-plan-text {
+        padding-right: 40px;
+    }
+
+    #annual-plan-text {
+        font-size: 14px;
+    }
+
+    #annual-plan-price {
+        font-size: 14px;
+    }
+
+    .music-icon {
+        margin: 0px;
+        width: 20px 20px;
+    }
+
+    .change-link {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+
+    a.cancel-link {
+        font-size: 12px;
+        width: 500;
+    }
+}
+
+@media (min-width: 600px) {
+    div.container {
+        max-width: 430px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .inside-elements {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .annual-plan-text {
+        padding-right: 70px;
+    }
+
+    #annual-plan-text {
+        font-size: 16px;
+    }
+
+    #annual-plan-price {
+        font-size: 16px;
+    }
+
+    .music-icon {
+        margin: 0px;
+        width: 40px 40px;
+    }
+
+    .change-link {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+
+    a.cancel-link {
+        font-size: 14px;
+        width: 900;
+    }
+}
