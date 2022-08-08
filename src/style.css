@@ -219,6 +219,10 @@ footer a:hover {
         font-size: 10px;
         width: 500;
     }
+
+    footer {
+        font-size: 9px;
+    }
 }
 
 @media (min-width: 400px) {
