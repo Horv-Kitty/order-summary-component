@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    height: auto;
 }
 
 main {
@@ -19,6 +20,7 @@ main {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
+    height: auto;
 }
 
 div.container {
@@ -120,8 +122,6 @@ button {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.6px;
-    display: block;
-    margin: 0 auto;
     min-width: 100%;
     padding: 17px 0px;
 }
