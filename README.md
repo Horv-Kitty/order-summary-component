@@ -17,8 +17,8 @@ Your users should be able to: See hover states for interactive elements
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- CSS
 
 ## Author
 
